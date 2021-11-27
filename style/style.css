@@ -7,6 +7,7 @@
 section {
   height: 100vh;
   background-image: url(../image/fundo-wallpaper.svg);
+  background-repeat: no-repeat;
   background-size: 100%;
 }
 
@@ -33,4 +34,93 @@ nav ul li + li {
   border-left: 1px solid #fff;
   margin-left: 2rem;
   padding-left: 2rem;
+}
+
+.content {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+
+  background-image: url(../image/jinx.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 35%;
+  height: 68vh;
+}
+
+.content .describe {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.content .describe img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.content .describe button {
+  margin: 0 auto;
+  width: 300px;
+  padding: 1rem;
+
+  border-top-left-radius: 0.6rem;
+  border: 0;
+
+  cursor: pointer;
+  background: #e3d2bc;
+  text-transform: uppercase;
+
+  font-weight: bold;
+}
+
+.new-video {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  position: relative;
+  top: -70px;
+  margin-bottom: 30rem !important;
+}
+
+.new-video .video {
+  background: #fff;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+
+.new-video .video img {
+  width: 30%;
+}
+
+.content-video {
+  width: 70%;
+  margin-left: 2rem;
+  font-family: Poppins;
+}
+
+.content-video h2 {
+  margin-bottom: 1rem;
+}
+
+.content-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-btns img {
+  width: 4% !important;
+  margin: 1rem 0;
+}
+
+.content-btns button {
+  width: 150px;
+  padding: 0.5rem 0;
 }
